@@ -3,4 +3,7 @@ layout: page
 title: About
 ---
 
-Something about me.
+读者朋友你好！
+
+这里是Walden的博客。
+
