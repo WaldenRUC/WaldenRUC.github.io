@@ -1,5 +1,5 @@
 ---
-title: "Awards"
+title: "所获奖项"
 excerpt: "Awards"
 sitemap: false
 permalink: /awards/
