@@ -9,6 +9,7 @@ paperurl: 'https://arxiv.org/abs/2210.08753'
 citation: "Huang, Z., Dou, Z., Zhu, Y., & Ma, Z. (2022). MCP: Self-supervised Pre-training for Personalized Chatbots with Multi-level Contrastive Sampling. arXiv. https://doi.org/10.48550/arXiv.2210.08753. <i>Findings of EMNLP 2022</i>. 1(1)."
 ---
 
+**Abstract**
 Personalized chatbots focus on endowing the chatbots with a consistent personality to behave like real users and further act as personal assistants.
 Previous studies have explored generating implicit user profiles from the user's dialogue history for building personalized chatbots.
 However, these studies only use the response generation loss to train the entire model, thus it is prone to suffer from the problem of data sparsity.
