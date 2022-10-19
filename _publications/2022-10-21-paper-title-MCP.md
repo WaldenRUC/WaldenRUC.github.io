@@ -22,5 +22,3 @@ We pre-train the utterance encoder and the history encoder towards the contrasti
 Experimental results on two real-world datasets show a significant improvement in our proposed model MCP compared with the existing methods.
 
 [Download paper here](https://arxiv.org/pdf/2210.08753.pdf)
-
-Recommended citation: Huang, Z., Dou, Z., Zhu, Y., & Ma, Z. (2022). MCP: Self-supervised Pre-training for Personalized Chatbots with Multi-level Contrastive Sampling. arXiv. https://doi.org/10.48550/arXiv.2210.08753 <i>Findings of EMNLP</i>. 1(1).
