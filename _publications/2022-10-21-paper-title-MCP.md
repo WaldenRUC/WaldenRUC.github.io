@@ -21,4 +21,7 @@ We design three pre-training tasks based on three types of contrastive pairs fro
 We pre-train the utterance encoder and the history encoder towards the contrastive objectives and use these pre-trained encoders for generating user profiles while personalized response generation.
 Experimental results on two real-world datasets show a significant improvement in our proposed model MCP compared with the existing methods.
 
+## Meta-review
+This paper uses contrastive objectives to pre-train multiple models to encode user profile of chatbot dialogue and use the profile to generate personalized responses. All reviewers agree that the idea is interesting and the paper is well written. The novelty of applying contrastive training to chatbot and the lack of experimental comparisons to systems with pre-trained models are two major concerns. The authors gave detailed explanation to the reviewers' concerns. I believe that using contrastive training in the specific area of chatbot personalization has sufficient novelty although the idea is not new. And the comparison to systems with pre-trained models is indeed important since most real world chatbot systems will involve PLM.
+
 [Download paper here](https://arxiv.org/pdf/2210.08753.pdf)
