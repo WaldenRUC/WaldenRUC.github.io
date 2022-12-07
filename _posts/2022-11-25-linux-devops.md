@@ -9,7 +9,11 @@ tags:
 
 ## Q: Python pip下载第三方库速度太慢
 
-A: pip install <pkg-name> -i https://pypi.tuna.tsinghua.edu.cn/simple
+A: 
+
+```
+pip install <pkg-name> -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
 ***
 
