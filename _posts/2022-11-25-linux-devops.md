@@ -85,7 +85,11 @@ DNS1=8.8.8.8
 DNS2=119.29.29.29
 ```
 
-最后输入【sudo service network restart】重启服务
+最后输入
+```
+sudo service network restart
+```
+重启服务
 
 ***
 
