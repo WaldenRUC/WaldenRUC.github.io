@@ -163,7 +163,7 @@ sudo yum install -y zsh
 cat /etc/shells
 ```
 
-<img src="/Users/walden/通用笔记备忘/image-20210312232152161.png" alt="image-20210312232152161" style="zoom:50%;" />
+<img src="/images/aliyun_server/image-20210312232152161.png" alt="image-20210312232152161" style="zoom:50%;" />
 
 下载oh-my-zsh（因为我喜欢它的界面，哈哈，不喜欢的读者朋友们可以跳过此步~）：
 
@@ -330,7 +330,7 @@ sudo ldconfig
 
 这样就安装了tesseract的bin文件。在pip下载的pytesseract安装包中，打开py文件，修改tesseract_cmd：
 
-<img src="/Users/walden/通用笔记备忘/image-20210317162243282.png" alt="image-20210317162243282" style="zoom:50%;" />
+<img src="/images/aliyun_server/image-20210317162243282.png" alt="image-20210317162243282" style="zoom:50%;" />
 
 解决上述问题后，出现错误如下图所示：
 
@@ -338,7 +338,7 @@ sudo ldconfig
 
 说明没安装语言包。在csdn上下载必要的语言包：
 
-<img src="/Users/walden/通用笔记备忘/image-20210317162918935.png" alt="image-20210317162918935" style="zoom:33%;" />
+<img src="/images/aliyun_server/image-20210317162918935.png" alt="image-20210317162918935" style="zoom:33%;" />
 
 将这三个sftp到云上新建的~/tessdata文件夹下，然后输入：
 
