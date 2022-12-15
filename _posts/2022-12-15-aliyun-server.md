@@ -173,7 +173,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 
 完成界面如下：
 
-![image-20210316115226115](/Users/walden/通用笔记备忘/image-20210316115226115.png)
+![image-20210316115226115](/images/aliyun_server/image-20210316115226115.png)
 
 更改默认shell：
 
@@ -187,13 +187,13 @@ chsh -s /bin/zsh
 vi .zshrc
 ```
 
-![image-20210316115540820](/Users/walden/通用笔记备忘/image-20210316115540820.png)
+![image-20210316115540820](/images/aliyun_server/image-20210316115540820.png)
 
 找到ZSH_THEME变量，将其改为random（参考14行的注释说明）
 
 exit退出后重新登录服务器，可以看到通过上文更改默认shell为zsh，同时配置了随机的主题风格后，每次都有全新的主题终端。
 
-![image-20210316120017074](/Users/walden/通用笔记备忘/image-20210316120017074.png)
+![image-20210316120017074](/images/aliyun_server/image-20210316120017074.png)
 
 ### 2-4. 包管理
 
@@ -213,7 +213,7 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python3 get-pip.py	#用python3下载pip并运行，这样pip就关联到这个python版本了
 ```
 
-![image-20210316123912168](/Users/walden/通用笔记备忘/image-20210316123912168.png)
+![image-20210316123912168](/images/aliyun_server/image-20210316123912168.png)
 
 注意到警告，环境变量PATH中没有这个目录，因此**当前输入的pip命令无法找到对应的pip软件路径**。这样修改就可以了：
 
@@ -229,32 +229,32 @@ pip install selenium==2.48.0 numpy pandas opencv-python pytesseract Image backpo
 
 安装完pytesseract后，会出现问题【Python tesseract is not installed or it’s not in your path】，需要修改一下内部的文件。注意到安装路径为下图所示：
 
-![image-20210316131942894](/Users/walden/通用笔记备忘/image-20210316131942894.png)
+![image-20210316131942894](/images/aliyun_server/image-20210316131942894.png)
 
 ```shell
 cd /usr/local/python3Dir/lib/python3.8/site-packages/pytesseract
 vim pytesseract.py
 ```
 
-![image-20210316132348121](/Users/walden/通用笔记备忘/image-20210316132348121.png)
+![image-20210316132348121](/images/aliyun_server/image-20210316132348121.png)
 
 修改第32行。
 
 使用【which】命令，查找pytesseract命令是否已经安装到bin下了：
 
-![image-20210316132657367](/Users/walden/通用笔记备忘/image-20210316132657367.png)
+![image-20210316132657367](/images/aliyun_server/image-20210316132657367.png)
 
 返回安装路径，然后将tesseract_cmd改为此路径即可。
 
-![image-20210316132730973](/Users/walden/通用笔记备忘/image-20210316132730973.png)
+![image-20210316132730973](/images/aliyun_server/image-20210316132730973.png)
 
-关于PYTHONPATH变量缺失的问题：在/etc/profile中，补上最后一行：![image-20210316194829603](/Users/walden/通用笔记备忘/image-20210316194829603.png)
+关于PYTHONPATH变量缺失的问题：在/etc/profile中，补上最后一行：![image-20210316194829603](/images/aliyun_server/image-20210316194829603.png)
 
 这个pythonpath的路径是**pip的下载第三方包路径**，pip下载第三方包后，存储在【pip --version】的返回路径下，对应图中的路径是【/usr/local/python3Dir/lib/python3.8/site-packages】，更改后，我们可以看到，sys.path中有了刚才添加的路径。
 
-![image-20210316135530941](/Users/walden/通用笔记备忘/image-20210316135530941.png)
+![image-20210316135530941](/images/aliyun_server/image-20210316135530941.png)
 
-![image-20210316192014349](/Users/walden/通用笔记备忘/image-20210316192014349.png)
+![image-20210316192014349](/images/aliyun_server/image-20210316192014349.png)
 
 ### 3-2. _bz2配置
 
@@ -279,7 +279,7 @@ vi lzma.py
 
 将下图被注释的代码片段改为：
 
-![image-20210316213219448](/Users/walden/通用笔记备忘/image-20210316213219448.png)
+![image-20210316213219448](/images/aliyun_server/image-20210316213219448.png)
 
 ### 3-4. phantomjs配置
 
@@ -299,7 +299,7 @@ vi /etc/profile
 
 在79行添上相应内容（我的phantomjs是放在~（个人用户根目录）下的，所以这样设置）
 
-![image-20210316231327337](/Users/walden/通用笔记备忘/image-20210316231327337.png)
+![image-20210316231327337](/images/aliyun_server/image-20210316231327337.png)
 
 安装leptonica库：
 
@@ -313,7 +313,7 @@ make && make install
 
 然后在/etc/profile最后补上这三行，并【source /etc/profile】使之生效。
 
-![image-20210317154858274](/Users/walden/通用笔记备忘/image-20210317154858274.png)
+![image-20210317154858274](/images/aliyun_server/image-20210317154858274.png)
 
 安装tesseract-ocr：
 
@@ -334,7 +334,7 @@ sudo ldconfig
 
 解决上述问题后，出现错误如下图所示：
 
-![image-20210317162204858](/Users/walden/通用笔记备忘/image-20210317162204858.png)
+![image-20210317162204858](/images/aliyun_server/image-20210317162204858.png)
 
 说明没安装语言包。在csdn上下载必要的语言包：
 
