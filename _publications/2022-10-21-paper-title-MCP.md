@@ -28,4 +28,4 @@ The authors gave detailed explanation to the reviewers' concerns.
 I believe that using contrastive training in the specific area of chatbot personalization has **sufficient novelty** although the idea is not new. 
 And the comparison to systems with pre-trained models is indeed important since most real world chatbot systems will involve PLM.
 
-[Download paper here](https://arxiv.org/pdf/2210.08753.pdf)
+[Download paper here](/files/2022.findings-emnlp.73.pdf)
