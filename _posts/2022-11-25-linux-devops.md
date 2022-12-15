@@ -135,7 +135,7 @@ sudo spctl --master-disable
 sudo spctl --master-enable
 ```
 
-对于单个软件，需要==将其拖动到桌面==，然后在终端输入以下代码：
+对于单个软件，需要**将其拖动到桌面**，然后在终端输入以下代码：
 
 ```
 sudo xattr -r -d com.apple.quarantine <$appname.app>
