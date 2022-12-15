@@ -112,3 +112,35 @@ echo '$LANG' 与 echo "$LANG"
 
 ***
 
+## 配置Crontab的常见问题
+
+1. 直接执行bash文件，需要加上755权限，以及在文件第一行加上【#!/usr/bin/bash】
+2. **sendmail: fatal: parameter inet_interfaces: no local interface found for ::1**问题解决：https://blog.csdn.net/weixin_44058932/article/details/105185155?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522161778787416780266218081%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=161778787416780266218081&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-1-105185155.first_rank_v2_pc_rank_v29&utm_term=sendmail%3A+fatal%3A+parameter+inet_interfaces%3A+no+local+interface+found+for+%3A%3A1
+
+3. 脚本、crontab中命令尽量写绝对路径
+4. 脚本内要添加source bashfile
+
+***
+
+## 提示dmg文件已经损坏
+
+在终端输入以下代码以实现允许所有来源的软件运行：
+
+```
+sudo spctl --master-disable
+```
+
+输入以下代码以实现只允许来自苹果的软件运行：
+
+```
+sudo spctl --master-enable
+```
+
+对于单个软件，需要==将其拖动到桌面==，然后在终端输入以下代码：
+
+```
+sudo xattr -r -d com.apple.quarantine <$appname.app>
+```
+
+***
+
