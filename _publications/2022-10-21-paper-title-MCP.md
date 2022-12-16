@@ -6,7 +6,7 @@ excerpt: 'This paper is about the Personalized Chatbots.'
 date: 2022-10-21
 venue: 'Findings of EMNLP'
 paperurl: 'https://arxiv.org/abs/2210.08753'
-citation: Zhaoheng Huang, Zhicheng Dou, Yutao Zhu, and Zhengyi Ma. 2022. MCP: Self-supervised Pre-training for Personalized Chatbots with Multi-level Contrastive Sampling. In Findings of the Association for Computational Linguistics: EMNLP 2022, pages 1030–1042, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.
+citation: "Zhaoheng Huang, Zhicheng Dou, Yutao Zhu, and Zhengyi Ma. 2022. MCP: Self-supervised Pre-training for Personalized Chatbots with Multi-level Contrastive Sampling. In Findings of the Association for Computational Linguistics: EMNLP 2022, pages 1030–1042, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics."
 ---
 
 ## Abstract
