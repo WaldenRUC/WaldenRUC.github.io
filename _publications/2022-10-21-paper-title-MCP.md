@@ -2,7 +2,7 @@
 title: "MCP: Self-supervised Pre-training for Personalized Chatbots with Multi-level Contrastive Sampling"
 collection: publications
 permalink: /publication/2022-10-21-paper-title-MCP
-excerpt: 'This paper is about the Personalized Chatbots.'
+excerpt: 'EMNLP 2022 received 4190 papers and finally accepted 828 main conference papers (19.8%) and 548 findings (13.1%). 32.9% papers were accepted in total.'
 date: 2022-10-21
 venue: 'Findings of EMNLP'
 paperurl: 'https://arxiv.org/abs/2210.08753'
