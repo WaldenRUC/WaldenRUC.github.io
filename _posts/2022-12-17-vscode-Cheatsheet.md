@@ -6,6 +6,10 @@ tags:
   - VS Code
 ---
 
+VS Code常用快捷键
+======
+
+
 - cmd + shift + p:打开命令面板
   - 输入【Shell command: Install 'code' command in PATH】：在终端输入code即可启动vscode
   - 输入【Preferences: open settings(UI)】 或 【cmd + ,】：打开设置编辑器
