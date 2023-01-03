@@ -1,10 +1,14 @@
 ---
-title: 'Matplotlib Font'
+title: 'Python Q&A'
 date: 2020-11-06
-permalink: /posts/2020/11/matplotlib/
+permalink: /posts/2020/11/python/
 tags:
   - Python
 ---
+
+
+
+
 ## Matplotlib.pyplot中文显示乱码的解决方法（内核代码修改）
 
 首先打开终端，输入python进入shell
@@ -44,3 +48,22 @@ plt.rcParams['font.sans-serif']=['Songti SC'] #用来正常显示中文标签
 ```
 
 在smoothNLP的github主页上也有相应解决方案
+
+## 设置Matplotlib.pyplot支持中文
+
+```python
+import matplotlib.pyplot as plt
+x = [1,2,3,4,5]
+y = [1,4,9,16,25]
+#调用绘制的plot方法
+plt.plot(x, y, linewidth=5)
+plt.xlabel('x')
+plt.ylabel('y=x^2')
+#设置支持中文
+plt.rcParams['font.sans-serif']=['Songti SC'] #用来正常显示中文标签
+#添加标题
+plt.title('多个点绘制折线图') #会出现乱码
+ 
+#显示绘制的图
+plt.show()
+```
