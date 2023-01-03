@@ -34,6 +34,8 @@ sudo service sshd restart
 
 ***
 
+- [Vim思维导图](/files/Vim基本操作思维导图.pdf)
+
 ## Q: Ubuntu无法使用jps命令
 
 A:
