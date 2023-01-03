@@ -1,13 +1,9 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications\nYou can also find my articles on [Google Scholar](https://scholar.google.cz/citations?hl=zh-CN&user=KwTK6AoAAAAJ)"
 permalink: /publications/
 author_profile: true
 ---
-
-
-
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 
 
 {% for post in site.publications reversed %}
