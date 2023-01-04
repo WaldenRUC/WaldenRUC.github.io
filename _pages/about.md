@@ -8,6 +8,12 @@ redirect_from:
   - /about.html
 ---
 
+I'm a Ph.D student at Gaoling School of Artificial Intelligence, Renmin University of China.
+I am advised by [Prof. Zhicheng Dou](http://playbigdata.ruc.edu.cn/dou/) at GSAI.
+My major research interests include:
+*Information Retrieval-oriented Pre-trained Models* and *Personalized Chatbots*.
+
+
 Getting started
 ======
 1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
