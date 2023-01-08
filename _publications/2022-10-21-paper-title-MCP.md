@@ -5,7 +5,7 @@ permalink: /publication/2022-10-21-paper-title-MCP
 excerpt: '[EMNLP 2022](https://2022.emnlp.org/) received 3964 papers and finally accepted 828 main conference papers (20.91%) and 548 findings (13.85%). 34.76% papers were accepted in total.'
 date: 2022-10-21
 venue: 'Findings of EMNLP'
-paperurl: 'https://arxiv.org/abs/2210.08753'
+paperurl: 'https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.73/'
 citation: "Zhaoheng Huang, Zhicheng Dou, Yutao Zhu, and Zhengyi Ma. 2022. MCP: Self-supervised Pre-training for Personalized Chatbots with Multi-level Contrastive Sampling. In Findings of the Association for Computational Linguistics: EMNLP 2022, pages 1030–1042, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics."
 ---
 
