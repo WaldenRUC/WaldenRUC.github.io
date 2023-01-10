@@ -7,8 +7,9 @@ tags:
   - Python
 ---
 
-- [Vim思维导图](/files/Vim基本操作思维导图.pdf)
+## Linux运维技巧
 
+- [Vim思维导图](/files/Vim基本操作思维导图.pdf)
 
 ## Q: Python pip下载第三方库速度太慢
 
