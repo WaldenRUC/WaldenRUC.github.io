@@ -9,10 +9,17 @@ redirect_from:
 ---
 
 I'm a Ph.D student at Gaoling School of Artificial Intelligence, Renmin University of China.
-I am advised by [Prof. Zhicheng Dou](http://playbigdata.ruc.edu.cn/dou/) at GSAI.
+I am advised by [Prof. Zhicheng Dou](http://playbigdata.ruc.edu.cn/dou/) and [Prof. Ji-Rong Wen](https://scholar.google.com/citations?user=tbxCHJgAAAAJ) at GSAI.
 
 My major research interests include:
 *Information Retrieval-oriented Pre-trained Models* and *Personalized Chatbots*.
+
+
+
+
+
+
+
 
 
 Getting started
