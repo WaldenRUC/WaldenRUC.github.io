@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "My Violin Accompaniment for Chorus"
+excerpt: "Apr. 15th, 2023<br/><img src='/images/230423.JPG'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+On Apr. 15th, 2023, I was invited to Beihang University and made violin accompaniment for joint performance of RUC women's Chorus and Beihang Feitian Chorus at the history museum.
