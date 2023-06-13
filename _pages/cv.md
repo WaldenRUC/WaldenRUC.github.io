@@ -56,4 +56,4 @@ You can also find my articles on my [Google Scholar profile]({{site.author.googl
   
 社会服务与领导力
 ======
-* 
+* 2023.07 - 2023.08 平潭综合实验区文旅发展集团有限公司-集团党群工作部
