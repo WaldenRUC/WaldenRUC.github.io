@@ -42,9 +42,18 @@ You can also find my articles on my [Google Scholar profile]({{site.author.googl
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-
+演讲
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+  
+任教
+======
+  <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
 社会服务与领导力
 ======
 * 2023.07 - 2023.08 平潭综合实验区文旅发展集团有限公司-集团党群工作部
-* 2019.07 - 2019.10 新中国成立70周年广场阅兵式阳光合唱团-男高音成员
-* 2018.10 - 2018.12 新中国改革开放40周年文艺晚会-演员

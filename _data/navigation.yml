@@ -8,6 +8,8 @@ main:
     url: /awards/
   - title: "博客"
     url: /year-archive/
+  - title: "精读"
+    url: /reading/
   - title: "教学"
     url: /teaching/
   - title: "照片册"
