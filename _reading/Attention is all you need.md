@@ -1,7 +1,7 @@
 ---
 title: 'Attention Is All You Need'
-date: 2023-06-25
-permalink: /reading/2023/06/Attention_Is_All_You_Need
+date: 2017-06-03
+permalink: /reading/2017/06/Attention_Is_All_You_Need
 tags:
   - network structure
 ---
