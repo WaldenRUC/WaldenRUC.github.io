@@ -6,12 +6,11 @@ tags:
   - network structure
 ---
 
-# Paper Title
-
+# Reading Time: 23/06/25
 
 | Title | Paper URL | Code | Publish Conf |
 |---|---|---|---|
-|  |  |  | NeurIPS'17 | 
+| Attention Is All You Need |  |  | NeurIPS'17 | 
 
 
 ## Background & Introduction

@@ -1,9 +1,8 @@
 ---
-title: 'Paper Title'
-date: 2023-06-25
+title: 'Reading Format'
+date: 1999-12-02
 permalink: /reading/title
 tags:
-  - network structure
 ---
 
 # Paper Title
