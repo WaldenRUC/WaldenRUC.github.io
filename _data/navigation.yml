@@ -14,7 +14,7 @@ main:
     url: /teaching/
   - title: "照片册"
     url: /portfolio/
-  - title: "演讲"
-    url: /talks/
+  # - title: "演讲"
+  #  url: /talks/
   - title: "主页向导"
     url: /markdown/
