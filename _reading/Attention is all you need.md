@@ -10,7 +10,7 @@ tags:
 
 | Title | Paper URL | Code | Publish Conf |
 |---|---|---|---|
-| Attention Is All You Need |  |  | NeurIPS'17 | 
+| Attention Is All You Need | [download](/files/reading/Attention_Is_All_You_Need/paper.pdf) | [code](https://github.com/jadore801120/attention-is-all-you-need-pytorch) | NeurIPS'17 | 
 
 
 ## Background & Introduction

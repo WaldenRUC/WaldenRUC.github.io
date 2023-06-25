@@ -5,7 +5,7 @@ permalink: /reading/title
 tags:
 ---
 
-# Paper Title
+### A Template for Paper Reading
 
 
 | Title | Paper URL | Code | Publish Conf |
