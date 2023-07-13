@@ -5,12 +5,11 @@ permalink: /reading/title
 tags:
 ---
 
-### A Template for Paper Reading
-
+### Reading Time: 23/07/11
 
 | Title | Paper URL | Code | Publish Conf |
 |---|---|---|---|
-|  |  |  |  | 
+|  | [download]() | [code]() |  | 
 
 
 ## Background & Introduction
