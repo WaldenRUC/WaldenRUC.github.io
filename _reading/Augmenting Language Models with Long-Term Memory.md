@@ -25,16 +25,20 @@ MemTRM模型通过上下文token和**不可微分的记忆区**的token计算注
 
 ## Methods
 
-![](files/reading/Augmenting_Language_Models_with_Long-Term_Memory/architecture.jpg)
+![](assets/16892169849808.jpg)
 
-首先，本文用一个LLM解码器对长度为$|\text{x}|$的输入序列$\{\text{x}_i\}$编码，并得到每一层transformer的输出$\mathbf{H}^{l'}_{\text{LLM}}$。
 
-假设注意力头数为$H$，QKV的维度为$d$，则在这个过程中，**每一层**的key和value的维度为$H \times |\text{x}| \times d$。储存最近的M个输入token，则缓存的记忆区$\mathcal{Z}_k, \mathcal{Z}_v$大小为:$H \times M \times d$。
+首先，本文用一个LLM解码器对输入序列$\{\text{x}\}$编码，并得到每一层transformer的输出$\mathbf{H}^{l'}_{\text{LLM}}$。
+
+假设注意力头数为$H$，QKV的维度为$d$，则在这个过程中，**每一层**的key和value的维度为$H \times \left| \text{x} \right| \times d$。储存最近的M个输入token，则缓存的记忆区$\mathcal{Z}_k, \mathcal{Z}_v$大小为:$H \times M \times d$。
 
 记忆召回和融合(Memory Retrieval and Fusion)是长时记忆能力的来源。本文的记忆召回并不是直接召回token(token-to-token retrieval)，为了速度和整体性，本文选择token-to-chunk的模式，即，将$csz$个相邻token合并在一起，并平均池化。
-召回的K和V的维度为$|\text{x}| \times K \times d$
+召回的K和V的维度为$\left| \text{x} \right| \times K \times d$
+
+
 
 ## Experiments
+
 
 ## Analysis
 
