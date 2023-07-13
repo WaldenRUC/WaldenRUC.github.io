@@ -28,7 +28,7 @@ MemTRM模型通过上下文token和**不可微分的记忆区**的token计算注
 ![](assets/16892169849808.jpg)
 
 
-首先，本文用一个LLM解码器对输入序列$\{\text{x}\}$编码（设序列长度为$L=\left|\text{x}\right|$），并得到每一层transformer的输出$\mathbf{H}^{l'}_{\text{LLM}}$。
+首先，本文用一个LLM解码器对输入序列$\{\text{x}\}$编码（设序列长度为$L=\lvert \text{x} \rvert$），并得到每一层transformer的输出$\mathbf{H}^{l'}_{\text{LLM}}$。
 
 假设注意力头数为$H$，QKV的维度为$d$，则在这个过程中，**每一层**的key和value的维度为$H \times L \times d$。储存最近的M个输入token，则缓存的记忆区$\mathcal{Z}_k, \mathcal{Z}_v$大小为:$H \times M \times d$。
 
