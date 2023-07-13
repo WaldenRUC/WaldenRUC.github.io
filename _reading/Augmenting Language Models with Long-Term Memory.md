@@ -25,7 +25,7 @@ MemTRM模型通过上下文token和**不可微分的记忆区**的token计算注
 
 ## Methods
 
-![](assets/16892169849808.jpg)
+![](/images/Augmenting Language Models with Long-Term Memory/16892169849808.jpg)
 
 
 首先，本文用一个LLM解码器对输入序列$\{\text{x}\}$编码（设序列长度为$L=\lvert \text{x} \rvert$），并得到每一层transformer的输出$\mathbf{H}^{l'}_{\text{LLM}}$。
