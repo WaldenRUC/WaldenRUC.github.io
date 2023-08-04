@@ -9,7 +9,7 @@ tags:
 
 | Title | Paper URL | Code | Publish Conf |
 |---|---|---|---|
-|  | [download]() | [code]() |  | 
+|  | [download](/files/reading//paper.pdf) | [code]() |  | 
 
 
 ## Background & Introduction
