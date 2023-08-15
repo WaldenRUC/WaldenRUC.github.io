@@ -21,7 +21,7 @@ tags:
 
 ## Methods
 
-
+传统的MoE模型通过一个门控网络，确定每个专家网络的权重，然后将专家网络加权求和后的值作为输出。本文将transformer中的FFN视为专家，通过并行地设置多个FFN，并用一个路由函数选择最合适的FFN。
 
 ## Experiments
 
