@@ -13,8 +13,9 @@ I'm a Ph.D candidate at Gaoling School of Artificial Intelligence, Renmin Univer
 I am advised by [Prof. Zhicheng Dou](http://playbigdata.ruc.edu.cn/dou/) and [Prof. Ji-Rong Wen](https://scholar.google.com/citations?user=tbxCHJgAAAAJ) at GSAI.
 
 My major research interests include:
-- Information Retrieval-oriented Pre-trained Models (*working paper*)
-- Evaluation of Large Language Models (*working paper*)
-- Personalized Chatbots
+- Retrieval-Augmented Generation (Work in Progress)
+- Information Retrieval-oriented Pre-trained Models (Working Paper)
+- Evaluation of Large Language Models (Working Paper)
+- Personalized Chatbots (**Published in EMNLP'22**)
 
 
