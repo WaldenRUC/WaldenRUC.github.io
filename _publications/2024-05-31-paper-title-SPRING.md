@@ -2,11 +2,11 @@
 title: "One Token Can Help! Learning Scalable and Pluggable Virtual Tokens for Retrieval-Augmented Large Language Models"
 collection: publications
 permalink: /publication/2024-05-31-paper-title-SPRING
-excerpt: '[Arxiv'2405]'
+excerpt: '[Arxiv-2405]'
 date: 2024-05-31
 venue: 'Arxiv'
 paperurl: 'https://arxiv.org/abs/2405.19670'
-citation: ""
+citation: "Yutao Zhu and Zhaoheng Huang and Zhicheng Dou and Ji-Rong Wen. 2024. One Token Can Help! Learning Scalable and Pluggable Virtual Tokens for Retrieval-Augmented Large Language Models. Work in Progress."
 ---
 
 **Citation Count: 0**
