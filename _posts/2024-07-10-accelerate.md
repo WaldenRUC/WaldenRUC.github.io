@@ -1,6 +1,6 @@
 ---
 title: 'Accelerate'
-date: 2024-07-11
+date: 2024-07-10
 permalink: /posts/2024/07/accelerate/
 tags:
   - Pytorch
