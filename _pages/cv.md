@@ -49,6 +49,7 @@ You can also find my articles on my [Google Scholar profile]({{site.author.googl
 
 社会服务
 ======
+* 2024.09 - 2024.12 本科课程《Python程序设计》助教
 * 2024.03 - 2024.06 本科课程《微积分CII》助教
 * 2023.09 - 2023.12 本科课程《网络群体与市场》助教
 * 2023.07 - 2023.08 平潭综合实验区文旅发展集团有限公司-集团党群工作部
