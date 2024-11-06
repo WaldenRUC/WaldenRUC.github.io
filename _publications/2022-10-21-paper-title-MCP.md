@@ -9,8 +9,6 @@ paperurl: 'https://aclanthology.org/2022.findings-emnlp.73/'
 citation: "Zhaoheng Huang, Zhicheng Dou, Yutao Zhu, and Zhengyi Ma. 2022. MCP: Self-supervised Pre-training for Personalized Chatbots with Multi-level Contrastive Sampling. In Findings of the Association for Computational Linguistics: EMNLP 2022, pages 1030–1042, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics."
 ---
 
-**Citation Count: 3**
-
 ## Abstract
 
 Personalized chatbots focus on endowing the chatbots with a consistent personality to behave like real users and further act as personal assistants.

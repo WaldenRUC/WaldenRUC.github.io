@@ -14,5 +14,5 @@ I am advised by [Prof. Zhicheng Dou](http://playbigdata.ruc.edu.cn/dou/) and [Pr
 
 My major research interests include:
 - Factuality Evaluation & Content Detection of Large Language Models (Working Paper)
-- Information Retrieval-oriented Pre-trained Models (Working Paper)
 - Personalized Chatbots (**Published in EMNLP'22**)
+- Information Retrieval-oriented Pre-trained Models (**Published in TKDE**)
