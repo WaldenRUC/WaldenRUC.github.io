@@ -15,5 +15,5 @@ I am fortunate to be advised by [Prof. Zhicheng Dou](http://playbigdata.ruc.edu.
 My major research interests include:
 - LLM-Generated Text Safety Analysis
 - Pre-training for Personalized Chatbots (**Published in EMNLP'22**)
-- Pre-training for Session Search (**Published in TKDE'25**)
+- Pre-training for Session Search (**Published in TKDE'24**)
 - PEFT for RAG (**Published in AAAI'25**)
