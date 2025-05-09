@@ -2,7 +2,7 @@
 title: "One Token Can Help! Learning Scalable and Pluggable Virtual Tokens for Retrieval-Augmented Large Language Models"
 collection: publications
 permalink: /publication/2025-04-11-paper-title-SPRING
-excerpt: 'AAAI 2025'
+excerpt: '[AAAI 2025](https://aaai.org/conference/aaai/aaai-25/) received 12,957 submissions (not including desk rejected papers), and among these we have accepted 3,032 submissions for presentation at the conference, an acceptance rate of 23.4%.'
 date: 2025-04-11
 venue: 'AAAI'
 paperurl: 'https://ojs.aaai.org/index.php/AAAI/article/view/34813'
