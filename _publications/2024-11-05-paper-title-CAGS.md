@@ -2,7 +2,7 @@
 title: "CAGS: Context-Aware Document Ranking with Contrastive Graph Sampling"
 collection: publications
 permalink: /publication/2024-11-05-paper-title-CAGS
-excerpt: '[TKDE 2024] published 12 issues in 2024 with a total of 666 papers.'
+excerpt: '[TKDE 2024](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69) published 12 issues with a total of 666 papers.'
 date: 2024-11-05
 venue: 'TKDE'
 paperurl: 'https://ieeexplore.ieee.org/document/10742917'
