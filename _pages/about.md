@@ -10,9 +10,10 @@ redirect_from:
 
 I'm a Ph.D candidate at Gaoling School of Artificial Intelligence, Renmin University of China.
 
-I am advised by [Prof. Zhicheng Dou](http://playbigdata.ruc.edu.cn/dou/) and [Prof. Ji-Rong Wen](https://scholar.google.com/citations?user=tbxCHJgAAAAJ) at GSAI.
+I am fortunate to be advised by [Prof. Zhicheng Dou](http://playbigdata.ruc.edu.cn/dou/) and [Prof. Ji-Rong Wen](https://scholar.google.com/citations?user=tbxCHJgAAAAJ) at GSAI.
 
 My major research interests include:
-- Factuality Evaluation & Content Detection of Large Language Models (Working Paper)
-- Personalized Chatbots (**Published in EMNLP'22**)
-- Information Retrieval-oriented Pre-trained Models (**Published in TKDE**)
+- LLM-Generated Text Safety Analysis
+- Pre-training for Personalized Chatbots (**Published in EMNLP'22**)
+- Pre-training for Session Search (**Published in TKDE'25**)
+- PEFT for RAG (**Published in AAAI'25**)
